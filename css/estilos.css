@@ -1,0 +1,62 @@
+/* Normalização */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(240, 240, 191),rgb(245, 198, 198));
+}
+
+.conteudo{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 80px;
+}
+
+.interna{
+
+    background: white;
+    padding: 10px 50px;
+    min-width: 50%; 
+    border-radius: 100px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+button{
+
+    min-width: 35%;
+    padding: 10px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+}
+
+#on{
+
+    background: gold;
+    color: black;
+}
+
+h1{
+    font-size: 64px;
+}
+
+button:hover{
+    
+    color: blue !important;
+}
